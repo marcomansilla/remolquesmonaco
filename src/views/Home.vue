@@ -1,10 +1,10 @@
 <template>
-    <div id="inicio">
+    <div id="inicio" class="container-fluid">
 	<div class="shadow">
 	    <h1>Remolques Mónaco</h1>
 
-	    <h3>El servicio de remolques más rapido y económico de Buenos Aires y CABA, AR</h3>
-	    <a class="button is-info" target="_blank" href="https://wa.me/541157080657">COMUNIQUESE AHORA  <i class="fa fa-whatsapp">  </i> 011 1557080657</a>
+	    <h3 class="d-none d-sm-block">El servicio de remolques más rapido y económico de Buenos Aires y CABA, AR</h3>
+	    <a class="btn btn-primary" target="_blank" href="https://wa.me/541157080657">COMUNIQUESE AHORA  <i class="fa fa-whatsapp">  </i> 011 1557080657</a>
 	</div>
     </div>
 </template>
@@ -14,13 +14,16 @@
      padding:10px
  }
 
- .button {
-     font-size:2rem
+ .btn {
+     margin-top:100px;
+     font-size:1rem
  }
 
  h1 {
-     font-size:4rem;
-     font-weight:bold
+     /* font-size:4rem;
+	font-weight:bold */
+     margin-top:25%;
+     padding:0px
  }
 
  h3 {
@@ -54,12 +57,9 @@
  }
 
  @media screen and (width<1000px){
-     h3 {
-	 display:none;
-     }
 
      .shadow {
-	 padding-top:45%
+	 padding-top:65%
      }
      h1 {
 	 font-size:2em;
