@@ -44,7 +44,8 @@
      background-color:#091835;
      position:fixed;
      top:0;
-     width:100%
+     width:100%;
+     margin-bottom:180px;
  }
 
  .navbar-item img {

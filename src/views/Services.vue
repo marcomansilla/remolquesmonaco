@@ -52,7 +52,6 @@
 <style scoped>
  #servicios {
      padding-top:1.5rem !important;
-     height:100vh;
      padding:120px
  }
 
