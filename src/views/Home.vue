@@ -15,14 +15,14 @@
  }
 
  .btn {
-     margin-top:100px;
+     margin-top:80px;
      font-size:1rem
  }
 
  h1 {
-     /* font-size:4rem;
-	font-weight:bold */
-     margin-top:25%;
+     font-size:4rem;
+     font-weight:bold;
+     margin-top:20%;
      padding:0px
  }
 

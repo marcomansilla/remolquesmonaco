@@ -1,7 +1,7 @@
 <template>
-    <div id="servicios">
-	<div class="columns is-mobile">
-	    <div class="column is-8">
+    <div id="servicios" class="container-fluid">
+	<div class="rows">
+	    <div class="col-sm-8 col-xs-12">
 		<h1>Necesitas una grua?</h1>
 		<small>Claro que si!.</small>
 		<p>Por eso estas aqui. Pero por que tan abajo en primer lugar?.</p>
@@ -9,13 +9,13 @@
 		<p>Puede que estes cuestionando nuestra calidad de servicio.</p>
 		<p>Sus amigos y vecinos lo guiaron en la direccion equivocada, o realmente ofrecemos el mejor servicio de gruas en Bs. As. y C.A.B.A. que viste?</p>
 	    </div>
-	    <div class="column is-4 xs-hidden">
+	    <div class="col-sm-4 d-none d-ls-block">
 		<img alt="" src="../assets/images/ram.jpeg"/>
 	    </div>
 	</div>
 	<hr/>
-	<div class="columns is-mobile xs-hidden">
-	    <div class="column long-text is-12">
+	<div class="rows long-text d-none d-sm-block">
+	    <div class="col-sm-12 col-xs-12">
 		<p>Muy bien, parece que realmente quieres saber si somos el servicio adecuado de remolques para vos.</p>
 		<p>Lo somos. Aqui esta el porqué:</p>​
 		<p>Nos importas vos, el cliente, y siempre haremos bien nuestro trabajo.</p>
@@ -52,7 +52,6 @@
 <style scoped>
  #servicios {
      padding-top:1.5rem !important;
-     padding:120px
  }
 
  h1 {

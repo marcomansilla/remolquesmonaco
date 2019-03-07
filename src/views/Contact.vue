@@ -1,14 +1,16 @@
 <template>
-    <div id="contacto">
-	<img alt="" src="../assets/logo.png"/>
+    <div id="contacto" class="container-fluid">
+	<img class="img-thumbnail" alt="" src="../assets/logo.png"/>
     </div>
 </template>
 
 <style scoped>
+ img {
+     margin:auto
+ }
  #contacto {
      text-align:center;
      padding:4rem;
-     height:50vh;
      color:#fff;
      background-color:rgb(9,24,53);
  }
