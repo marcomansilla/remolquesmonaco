@@ -53,7 +53,7 @@
      text-align:center;
  }
 
- @media (width<1000px){
+ @media screen and  (width<1000px){
      h3 {
 	 display:none;
      }

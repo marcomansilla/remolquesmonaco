@@ -79,7 +79,7 @@
      padding: 0 200px !important;
  }
 
- @media (width<1000px){
+ @media screen and (width<1000px){
      .long-text {
 	 padding:0px
      }
